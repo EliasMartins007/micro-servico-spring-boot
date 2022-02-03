@@ -13,7 +13,7 @@ Elias Martins Dos Reis
 -[java/maven/spring-boot]
 -[mysql]
 -[docker]
--[micro-serviço]
+
 
 
 /*status do projeto */
