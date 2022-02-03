@@ -1,5 +1,6 @@
 package academy.devdojo.youtube.course.endpoint.service;
 
+import academy.devdojo.youtube.course.CourseApplication;
 import academy.devdojo.youtube.course.model.Course;
 import academy.devdojo.youtube.course.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +16,7 @@ import org.springframework.stereotype.Service;
 //@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class CourseService {
 
-	private CourseRepository courseRepository; // originalmente era final
+	private CourseRepository courseRepository; // original final 
 
 	public Iterable<Course> list(Pageable pageable) {
 		log.info("Listing all courses");

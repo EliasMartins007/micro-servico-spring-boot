@@ -1,6 +1,5 @@
 server:
-  port: 8080
-  
+  port: 8080  
 spring: 
   application:    name: course
   jpa:
@@ -15,4 +14,5 @@ spring:
     url: jdbc:mysql://loclhost:3306/devdojo?allowPublicKeyRetrieval=true&sslMode=DISABLED 
     username: root
     password: devdojo        
-     
+
+
