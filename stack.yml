@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  db:
+    image: mysql
+    container_name: course-mysql2022
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: devdojo
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: devdojo
+    volumes:
+    - course:/var/lib/mysql
+volumes:
+  course: null
